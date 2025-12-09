@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARYA'S PROJECT</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #000000;
+        color: whitesmoke;
+        font-family: "Poppins", Arial, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 2rem;
+      }
+      h1:hover{
+        color : red;
+      }
+
+      h2 {
+        margin-left: 2rem;
+        font-size: 1.8rem;
+        color: #b8a4ff; 
+      }
+
+      .project-box {
+        border: 2px solid whitesmoke;
+        width: 70vw;
+        padding: 20px;
+        margin-left: 1rem;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.05);
+        transition: 0.3s;
+      }
+
+      .project-box:hover {
+        background: rgba(255, 255, 255, 0.12);
+        border-color: #b8a4ff;
+      }
+      li{
+        line-height: 2;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>PROJECTS</h1>
+
+    <h2>EZ-BOT</h2>
+    <ul class="project-box">
+      <li>
+        Developed a tool to create faceless explainer videos using automated
+        voiceovers and stock video backgrounds. Used text-to-speech (TTS) and
+        video processing techniques to synchronize narration with visuals.
+      </li>
+      <li>
+        Implemented a simple UI where users can input scripts and generate videos
+        automatically without editing skills.
+      </li>
+    </ul>
+
+    <h2>QUESTION PAPER ANALYZER & PREDICTOR</h2>
+    <ul class="project-box">
+      <li>
+        Built a tool to analyze PYQs and predict future questions by processing
+        PDFs uploaded by users.
+      </li>
+      <li>
+        Applied cosine similarity to detect frequently asked topics and identify
+        important patterns. Implemented PDF parsing and preprocessing using
+        Python.
+      </li>
+    </ul>
+
+  </body>
+</html>
